@@ -7,10 +7,13 @@ import ConsultationForm from "../components/ConsultationForm";
 const Home = () => {
   return (
     <>      
-      <ConsultationForm />
+    <div className="mt-4">
+        <ConsultationForm />
       <FeaturesHighlight />
       <HairInnovationSection />
       <HairResult />
+    </div>
+    
     </>
   );
 };
