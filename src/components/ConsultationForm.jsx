@@ -6,7 +6,7 @@ import adviseImg from "../assets/images/head/doctor-and-nurse-giving-advice-to-a
 const ConsultationForm = () => {
   return (
     <div
-      className="relative bg-gradient-to-tr from-[#182c1a] to-[#08140e] text-white overflow-hidden min-h-screen w-screen flex items-center justify-center px-6 py-16 dark:from-gray-900 dark:to-black transition-colors duration-700"
+      className="relative mt-4 bg-gradient-to-tr from-[#182c1a] to-[#08140e] text-white overflow-hidden min-h-screen w-screen flex items-center justify-center px-6 py-16 dark:from-gray-900 dark:to-black transition-colors duration-700"
       style={{ maxWidth: "100vw", maxHeight: "100vh" }}
     >
       <div className="absolute top-0 left-0 w-full h-full bg-green-900/10 backdrop-blur-md z-0 origin-top-left transform -skew-y-6 rounded-b-[8%]" />
@@ -16,7 +16,7 @@ const ConsultationForm = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
           className="space-y-10 text-left max-w-[600px] w-full"
-          style={{ minHeight: "450px" }}  // height মেইনটেইন করার জন্য
+          style={{ minHeight: "450px" }}  
         >
           <div className="inline-flex items-center gap-3 justify-start">
             <span className="bg-green-700 px-5 py-1.5 rounded-full text-lg font-medium tracking-wide shadow-md">
@@ -70,7 +70,7 @@ const ConsultationForm = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="relative flex justify-center items-center w-full"
-          style={{ minHeight: "450px" }} // Left এর height এর সমান রাখতে
+          style={{ minHeight: "450px" }}
         >
           <motion.img
             src={adviseImg}

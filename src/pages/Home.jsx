@@ -7,7 +7,7 @@ import ConsultationForm from "../components/ConsultationForm";
 const Home = () => {
   return (
     <>      
-    <div className="mt-4">
+    <div className="">
         <ConsultationForm />
       <FeaturesHighlight />
       <HairInnovationSection />
