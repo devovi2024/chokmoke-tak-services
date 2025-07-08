@@ -1,15 +1,13 @@
-import './App.css'
+import React from "react";
+import AppRouter from "./router/AppRouter";
+import Layout from "./layouts/Layout";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <div>
-        App tak Service 
-      </div>
-    </>
+    <Layout>
+      <AppRouter />
+    </Layout>
+  );
+};
 
-  )
-}
-
-export default App
+export default App;
